@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #042f68;
+    margin-left: 7%;
+}
+
+#subtitulo {
+    font-family: sanVerdana, Geneva, Tahoma, sans-serif;
+    font-weight: 10;
+    color: #04397e;
+    margin-left: 6%;
+    padding: 20px;
+    text-align: left;
+
+}
+
+
+fieldset {
+    border: 0;
+}
+
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #3c39e0;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+    background-color: beige;
+    background-image: url(../img/nm2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+input,
+button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #3c39e0;
+    border-radius: 5px;
+
+}
+
+.campo {
+    margin-bottom: 2px;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #3c39e0;
+    display: block;
+    padding: 10;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="number"],
+.campo input[type="password"]
+    {
+    padding: 0.2em;
+    border: 1px solid #0400ff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    background: #E0E0F8;
+}
+
+
+.botao {
+    font-size: 1;
+    background:  #3c39e0;
+    border: 10;
+    margin-bottom: 2;
+    color: #ffffff;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.footer {
+    margin:10px;
+    top: 90%;
+    padding: 200px;
+    padding-left: 5%;
+
+}
